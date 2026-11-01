@@ -1,0 +1,6 @@
+{
+  "name": "AI Mystery Room",
+  "description": "An AI-powered detective mystery game where players generate mysteries, interrogate suspects, discover clues, request hints, and solve cases with server-authoritative scoring.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

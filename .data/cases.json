@@ -1,0 +1,726 @@
+[
+  {
+    "id": "4baff691da848f6810279550",
+    "playerTokenHash": "dummy_hash_123",
+    "title": "The Case of the Missing Ruby",
+    "premise": "A priceless Burmese ruby vanishes from the estate library during midnight tea.",
+    "story": "On a stormy autumn evening at Ashcroft Manor, the private library safe was forced open while guests were gathered in the drawing room. The famed crimson ruby was stolen and replaced with a piece of worthless tinted red glass, sparking immediate suspicion among those present.",
+    "difficulty": "easy",
+    "suspects": [
+      {
+        "id": "suspect_1",
+        "name": "Arthur Pendelton",
+        "background": "The family butler with 30 years of loyal service.",
+        "motive": "Secret gambling debts to local bookmakers.",
+        "alibi": "Claims he was polishing silverware in the pantry."
+      },
+      {
+        "id": "suspect_2",
+        "name": "Lady Eleanor",
+        "background": "The estranged niece facing bankruptcy.",
+        "motive": "Disinherited from the estate will.",
+        "alibi": "Claims she was reading in the conservatory."
+      },
+      {
+        "id": "suspect_3",
+        "name": "Dr. Charles Vance",
+        "background": "The family physician who had late night access.",
+        "motive": "Funding an illicit medical research clinic.",
+        "alibi": "Administering nighttime sedatives to the host."
+      }
+    ],
+    "clues": [
+      {
+        "id": "clue_1",
+        "title": "Velvet Ribbon",
+        "description": "A frayed purple ribbon snagged on the safe hinge.",
+        "content": "Fibers matched the dress worn by Lady Eleanor earlier that night.",
+        "significance": "Proves Eleanor was at the safe during the storm.",
+        "relatedSuspectIds": [
+          "suspect_2"
+        ]
+      },
+      {
+        "id": "clue_2",
+        "title": "Silver Polish Cloth",
+        "description": "A damp cloth left on the pantry table.",
+        "content": "Shows traces of fresh silver cleaner, verifying Arthur was in the pantry.",
+        "significance": "Exonerates Arthur Pendelton from the time of theft.",
+        "relatedSuspectIds": [
+          "suspect_1"
+        ]
+      },
+      {
+        "id": "clue_3",
+        "title": "Glass Cutter Scratch",
+        "description": "A delicate circular scratch on the cabinet glass.",
+        "content": "Cut using a diamond-tipped scalpel from Dr. Vance's kit, stolen earlier by Eleanor.",
+        "significance": "Explains how the display case was compromised silently.",
+        "relatedSuspectIds": [
+          "suspect_2",
+          "suspect_3"
+        ]
+      },
+      {
+        "id": "clue_4",
+        "title": "Pawn Ticket",
+        "description": "A folded slip found in a coat pocket.",
+        "content": "Arthur's coat contained an unredeemed ticket for his watch, not a gem.",
+        "significance": "Confirms Arthur's financial distress but rules out ruby possession.",
+        "relatedSuspectIds": [
+          "suspect_1"
+        ]
+      },
+      {
+        "id": "clue_5",
+        "title": "Muddy Footprint",
+        "description": "A small feminine boot print near the terrace.",
+        "content": "Matches size 6 evening boots worn exclusively by Lady Eleanor.",
+        "significance": "Establishes the exit trajectory used by the thief.",
+        "relatedSuspectIds": [
+          "suspect_2"
+        ]
+      }
+    ],
+    "hints": [
+      {
+        "id": "hint_1",
+        "content": "Examine the alibi of the person seen near the conservatory terrace."
+      },
+      {
+        "id": "hint_2",
+        "content": "The physical dress fibers on the safe hinge eliminate the male suspects."
+      }
+    ],
+    "totalClues": 5,
+    "maxHints": 2,
+    "status": "completed",
+    "solution": {
+      "culpritId": "suspect_2",
+      "explanation": "Lady Eleanor slipped away from the conservatory, cut the safe pane, and took the ruby. Lady Eleanor left behind dress fibers.",
+      "evidenceIds": [
+        "clue_1",
+        "clue_3",
+        "clue_5"
+      ],
+      "reasoningSummary": "Fibers and footprints decisively identify Lady Eleanor while eliminating Arthur and Dr. Vance."
+    },
+    "discoveredClueIds": [
+      "clue_1"
+    ],
+    "hintsUsed": 2,
+    "accusedSuspectId": "suspect_2",
+    "verdict": "correct",
+    "score": {
+      "base": 100,
+      "cluePoints": 5,
+      "hintPenalty": 20,
+      "final": 85
+    },
+    "completedAt": "2026-10-30T15:13:53.808Z",
+    "createdAt": "2026-10-30T15:13:53.805Z",
+    "updatedAt": "2026-10-30T15:13:53.808Z"
+  },
+  {
+    "id": "34524b004c19e68c26224325",
+    "playerTokenHash": "dummy_hash_123",
+    "title": "The Case of the Missing Ruby",
+    "premise": "A priceless Burmese ruby vanishes from the estate library during midnight tea.",
+    "story": "On a stormy autumn evening at Ashcroft Manor, the private library safe was forced open while guests were gathered in the drawing room. The famed crimson ruby was stolen and replaced with a piece of worthless tinted red glass, sparking immediate suspicion among those present.",
+    "difficulty": "easy",
+    "suspects": [
+      {
+        "id": "suspect_1",
+        "name": "Arthur Pendelton",
+        "background": "The family butler with 30 years of loyal service.",
+        "motive": "Secret gambling debts to local bookmakers.",
+        "alibi": "Claims he was polishing silverware in the pantry."
+      },
+      {
+        "id": "suspect_2",
+        "name": "Lady Eleanor",
+        "background": "The estranged niece facing bankruptcy.",
+        "motive": "Disinherited from the estate will.",
+        "alibi": "Claims she was reading in the conservatory."
+      },
+      {
+        "id": "suspect_3",
+        "name": "Dr. Charles Vance",
+        "background": "The family physician who had late night access.",
+        "motive": "Funding an illicit medical research clinic.",
+        "alibi": "Administering nighttime sedatives to the host."
+      }
+    ],
+    "clues": [
+      {
+        "id": "clue_1",
+        "title": "Velvet Ribbon",
+        "description": "A frayed purple ribbon snagged on the safe hinge.",
+        "content": "Fibers matched the dress worn by Lady Eleanor earlier that night.",
+        "significance": "Proves Eleanor was at the safe during the storm.",
+        "relatedSuspectIds": [
+          "suspect_2"
+        ]
+      },
+      {
+        "id": "clue_2",
+        "title": "Silver Polish Cloth",
+        "description": "A damp cloth left on the pantry table.",
+        "content": "Shows traces of fresh silver cleaner, verifying Arthur was in the pantry.",
+        "significance": "Exonerates Arthur Pendelton from the time of theft.",
+        "relatedSuspectIds": [
+          "suspect_1"
+        ]
+      },
+      {
+        "id": "clue_3",
+        "title": "Glass Cutter Scratch",
+        "description": "A delicate circular scratch on the cabinet glass.",
+        "content": "Cut using a diamond-tipped scalpel from Dr. Vance's kit, stolen earlier by Eleanor.",
+        "significance": "Explains how the display case was compromised silently.",
+        "relatedSuspectIds": [
+          "suspect_2",
+          "suspect_3"
+        ]
+      },
+      {
+        "id": "clue_4",
+        "title": "Pawn Ticket",
+        "description": "A folded slip found in a coat pocket.",
+        "content": "Arthur's coat contained an unredeemed ticket for his watch, not a gem.",
+        "significance": "Confirms Arthur's financial distress but rules out ruby possession.",
+        "relatedSuspectIds": [
+          "suspect_1"
+        ]
+      },
+      {
+        "id": "clue_5",
+        "title": "Muddy Footprint",
+        "description": "A small feminine boot print near the terrace.",
+        "content": "Matches size 6 evening boots worn exclusively by Lady Eleanor.",
+        "significance": "Establishes the exit trajectory used by the thief.",
+        "relatedSuspectIds": [
+          "suspect_2"
+        ]
+      }
+    ],
+    "hints": [
+      {
+        "id": "hint_1",
+        "content": "Examine the alibi of the person seen near the conservatory terrace."
+      },
+      {
+        "id": "hint_2",
+        "content": "The physical dress fibers on the safe hinge eliminate the male suspects."
+      }
+    ],
+    "totalClues": 5,
+    "maxHints": 2,
+    "status": "completed",
+    "solution": {
+      "culpritId": "suspect_2",
+      "explanation": "Lady Eleanor slipped away from the conservatory, cut the safe pane, and took the ruby. Lady Eleanor left behind dress fibers.",
+      "evidenceIds": [
+        "clue_1",
+        "clue_3",
+        "clue_5"
+      ],
+      "reasoningSummary": "Fibers and footprints decisively identify Lady Eleanor while eliminating Arthur and Dr. Vance."
+    },
+    "discoveredClueIds": [
+      "clue_1"
+    ],
+    "hintsUsed": 2,
+    "accusedSuspectId": "suspect_2",
+    "verdict": "correct",
+    "score": {
+      "base": 100,
+      "cluePoints": 5,
+      "hintPenalty": 20,
+      "final": 85
+    },
+    "completedAt": "2026-11-01T07:50:47.223Z",
+    "createdAt": "2026-11-01T07:50:47.220Z",
+    "updatedAt": "2026-11-01T07:50:47.223Z"
+  },
+  {
+    "id": "9da10bb36d6e418f01ce0a51",
+    "playerTokenHash": "8011957b2c125667bfbd3f9cde08b101a99791d67c3dbb54b2cd7da1a6e1c3cb",
+    "title": "The Mystery of A rare jade dragon statuette vanishes from a ",
+    "premise": "A rare jade dragon statuette vanishes from a locked penthouse suite during a masquerade ball.",
+    "story": "The quiet of the evening was abruptly shattered when alarms sounded across the estate. Regarding the incident: \"A rare jade dragon statuette vanishes from a locked penthouse suite during a masquerade ball.\". Investigators arrived to discover key security checkpoints disabled and the crime completed with forensic precision. Initial interrogations have isolated a select circle of persons of interest, each with conflicting narratives, suspicious alibis, and hidden motives. It falls to you, Detective, to examine the physical clues, pierce through the falsehoods, and bring the true perpetrator to justice.",
+    "difficulty": "easy",
+    "suspects": [
+      {
+        "id": "suspect_1",
+        "name": "Julian Sterling",
+        "background": "Chief Security Officer with master keycard clearance. Longstanding associate connected to the location and principal parties.",
+        "motive": "Mounting secret debts and recent threats of termination.",
+        "alibi": "Claims to have been conducting physical perimeter rounds outside."
+      },
+      {
+        "id": "suspect_2",
+        "name": "Victoria Vance",
+        "background": "Senior Appraiser and lead forensic cataloger. Longstanding associate connected to the location and principal parties.",
+        "motive": "Furious over disputed provenance royalties and imminent audit.",
+        "alibi": "Claims to have been reviewing archival manifests in the basement."
+      },
+      {
+        "id": "suspect_3",
+        "name": "Marcus Holloway",
+        "background": "Visiting Patron and tech investor. Longstanding associate connected to the location and principal parties.",
+        "motive": "Seeking proprietary leverage to rescue his collapsing portfolio.",
+        "alibi": "Claims to have been on a private international conference call."
+      }
+    ],
+    "clues": [
+      {
+        "id": "clue_1",
+        "title": "Tampered Terminal Log",
+        "description": "A digital access record with timestamp discrepancies near the scene. Found during forensic sweeping of the crime scene.",
+        "content": "Security records show an override keycard was used precisely at 23:42, wiping local sensor feeds. Detailed analysis confirms clear links to the case timeline.",
+        "significance": "Directly proves access by someone possessing master clearance bypass codes. Links the physical timeline of the incident together.",
+        "relatedSuspectIds": [
+          "suspect_2",
+          "suspect_1"
+        ]
+      },
+      {
+        "id": "clue_2",
+        "title": "Smudged Silk Glove",
+        "description": "A discarded glove found tucked beneath an air intake vent. Found during forensic sweeping of the crime scene.",
+        "content": "Forensic inspection detects trace residues of the safe locking lubricant and micro-fibers. Detailed analysis confirms clear links to the case timeline.",
+        "significance": "Confirms the perpetrator used the duct corridor to circumvent hallway motion sensors. Links the physical timeline of the incident together.",
+        "relatedSuspectIds": [
+          "suspect_2"
+        ]
+      },
+      {
+        "id": "clue_3",
+        "title": "Encrypted Flash Drive",
+        "description": "A miniature drive dropped behind a velvet drapery. Found during forensic sweeping of the crime scene.",
+        "content": "Contains copied floor schematics and vault wiring diagrams downloaded forty-eight hours prior. Detailed analysis confirms clear links to the case timeline.",
+        "significance": "Indicates premeditated surveillance and technical knowledge of the venue layout. Links the physical timeline of the incident together.",
+        "relatedSuspectIds": [
+          "suspect_3",
+          "suspect_1"
+        ]
+      },
+      {
+        "id": "clue_4",
+        "title": "Fabric Thread Snag",
+        "description": "A singular colored thread snagged on the safe door latch. Found during forensic sweeping of the crime scene.",
+        "content": "Matches the exact tailored weave worn by the chief suspect during the evening. Detailed analysis confirms clear links to the case timeline.",
+        "significance": "Conclusive physical evidence placing the culprit in immediate contact with the vault latch. Links the physical timeline of the incident together.",
+        "relatedSuspectIds": [
+          "suspect_2"
+        ]
+      },
+      {
+        "id": "clue_5",
+        "title": "Alibi Phone Record",
+        "description": "Cellular network tower logs covering the critical window. Found during forensic sweeping of the crime scene.",
+        "content": "Tower triangulation confirms the alleged call was unanswered and lasted only four seconds. Detailed analysis confirms clear links to the case timeline.",
+        "significance": "Shatters the primary alibi timeline claimed during initial interrogation. Links the physical timeline of the incident together.",
+        "relatedSuspectIds": [
+          "suspect_2",
+          "suspect_3"
+        ]
+      }
+    ],
+    "hints": [
+      {
+        "id": "hint_1",
+        "content": "Focus your attention on the person whose alibi relies on unsupervised solo tasks in the basement or archives."
+      },
+      {
+        "id": "hint_2",
+        "content": "The fabric fibers and terminal override logs point away from exterior intruders toward a specialist with internal access."
+      }
+    ],
+    "totalClues": 5,
+    "maxHints": 2,
+    "status": "active",
+    "solution": {
+      "culpritId": "suspect_2",
+      "explanation": "Victoria Vance orchestrated the crime by taking advantage of specialized cataloging access and internal clearance. Victoria Vance prepared the bypass codes ahead of time, retrieved the target item, and planted misleading evidence. Physical thread fibers and access logs ultimately exposed Victoria Vance as the sole architect behind the operation.",
+      "evidenceIds": [
+        "clue_1",
+        "clue_2",
+        "clue_3"
+      ],
+      "reasoningSummary": "Forensic fiber matching and falsified phone timestamps eliminate other suspects and conclusively demonstrate that Victoria Vance executed the crime alone."
+    },
+    "discoveredClueIds": [],
+    "hintsUsed": 0,
+    "accusedSuspectId": null,
+    "verdict": null,
+    "score": null,
+    "completedAt": null,
+    "createdAt": "2026-11-01T08:17:20.760Z",
+    "updatedAt": "2026-11-01T08:17:20.760Z"
+  },
+  {
+    "id": "b20f89c60bf7cd8db53ce0e8",
+    "playerTokenHash": "8d35114fb71e81f2d385afc459b76c70956110f68ba8dc1f062b3cd8de6a7806",
+    "title": "The Mystery of A high-stakes diamond disappears during a gal",
+    "premise": "A high-stakes diamond disappears during a gala auction in Paris.",
+    "story": "The quiet of the evening was abruptly shattered when alarms sounded across the estate. Regarding the incident: \"A high-stakes diamond disappears during a gala auction in Paris.\". Investigators arrived to discover key security checkpoints disabled and the crime completed with forensic precision. Initial interrogations have isolated a select circle of persons of interest, each with conflicting narratives, suspicious alibis, and hidden motives. It falls to you, Detective, to examine the physical clues, pierce through the falsehoods, and bring the true perpetrator to justice.",
+    "difficulty": "easy",
+    "suspects": [
+      {
+        "id": "suspect_1",
+        "name": "Julian Sterling",
+        "background": "Chief Security Officer with master keycard clearance. Longstanding associate connected to the location and principal parties.",
+        "motive": "Mounting secret debts and recent threats of termination.",
+        "alibi": "Claims to have been conducting physical perimeter rounds outside."
+      },
+      {
+        "id": "suspect_2",
+        "name": "Victoria Vance",
+        "background": "Senior Appraiser and lead forensic cataloger. Longstanding associate connected to the location and principal parties.",
+        "motive": "Furious over disputed provenance royalties and imminent audit.",
+        "alibi": "Claims to have been reviewing archival manifests in the basement."
+      },
+      {
+        "id": "suspect_3",
+        "name": "Marcus Holloway",
+        "background": "Visiting Patron and tech investor. Longstanding associate connected to the location and principal parties.",
+        "motive": "Seeking proprietary leverage to rescue his collapsing portfolio.",
+        "alibi": "Claims to have been on a private international conference call."
+      }
+    ],
+    "clues": [
+      {
+        "id": "clue_1",
+        "title": "Tampered Terminal Log",
+        "description": "A digital access record with timestamp discrepancies near the scene. Found during forensic sweeping of the crime scene.",
+        "content": "Security records show an override keycard was used precisely at 23:42, wiping local sensor feeds. Detailed analysis confirms clear links to the case timeline.",
+        "significance": "Directly proves access by someone possessing master clearance bypass codes. Links the physical timeline of the incident together.",
+        "relatedSuspectIds": [
+          "suspect_2",
+          "suspect_1"
+        ]
+      },
+      {
+        "id": "clue_2",
+        "title": "Smudged Silk Glove",
+        "description": "A discarded glove found tucked beneath an air intake vent. Found during forensic sweeping of the crime scene.",
+        "content": "Forensic inspection detects trace residues of the safe locking lubricant and micro-fibers. Detailed analysis confirms clear links to the case timeline.",
+        "significance": "Confirms the perpetrator used the duct corridor to circumvent hallway motion sensors. Links the physical timeline of the incident together.",
+        "relatedSuspectIds": [
+          "suspect_2"
+        ]
+      },
+      {
+        "id": "clue_3",
+        "title": "Encrypted Flash Drive",
+        "description": "A miniature drive dropped behind a velvet drapery. Found during forensic sweeping of the crime scene.",
+        "content": "Contains copied floor schematics and vault wiring diagrams downloaded forty-eight hours prior. Detailed analysis confirms clear links to the case timeline.",
+        "significance": "Indicates premeditated surveillance and technical knowledge of the venue layout. Links the physical timeline of the incident together.",
+        "relatedSuspectIds": [
+          "suspect_3",
+          "suspect_1"
+        ]
+      },
+      {
+        "id": "clue_4",
+        "title": "Fabric Thread Snag",
+        "description": "A singular colored thread snagged on the safe door latch. Found during forensic sweeping of the crime scene.",
+        "content": "Matches the exact tailored weave worn by the chief suspect during the evening. Detailed analysis confirms clear links to the case timeline.",
+        "significance": "Conclusive physical evidence placing the culprit in immediate contact with the vault latch. Links the physical timeline of the incident together.",
+        "relatedSuspectIds": [
+          "suspect_2"
+        ]
+      },
+      {
+        "id": "clue_5",
+        "title": "Alibi Phone Record",
+        "description": "Cellular network tower logs covering the critical window. Found during forensic sweeping of the crime scene.",
+        "content": "Tower triangulation confirms the alleged call was unanswered and lasted only four seconds. Detailed analysis confirms clear links to the case timeline.",
+        "significance": "Shatters the primary alibi timeline claimed during initial interrogation. Links the physical timeline of the incident together.",
+        "relatedSuspectIds": [
+          "suspect_2",
+          "suspect_3"
+        ]
+      }
+    ],
+    "hints": [
+      {
+        "id": "hint_1",
+        "content": "Focus your attention on the person whose alibi relies on unsupervised solo tasks in the basement or archives."
+      },
+      {
+        "id": "hint_2",
+        "content": "The fabric fibers and terminal override logs point away from exterior intruders toward a specialist with internal access."
+      }
+    ],
+    "totalClues": 5,
+    "maxHints": 2,
+    "status": "completed",
+    "solution": {
+      "culpritId": "suspect_2",
+      "explanation": "Victoria Vance orchestrated the crime by taking advantage of specialized cataloging access and internal clearance. Victoria Vance prepared the bypass codes ahead of time, retrieved the target item, and planted misleading evidence. Physical thread fibers and access logs ultimately exposed Victoria Vance as the sole architect behind the operation.",
+      "evidenceIds": [
+        "clue_1",
+        "clue_2",
+        "clue_3"
+      ],
+      "reasoningSummary": "Forensic fiber matching and falsified phone timestamps eliminate other suspects and conclusively demonstrate that Victoria Vance executed the crime alone."
+    },
+    "discoveredClueIds": [
+      "clue_1"
+    ],
+    "hintsUsed": 1,
+    "accusedSuspectId": "suspect_2",
+    "verdict": "correct",
+    "score": {
+      "base": 100,
+      "cluePoints": 5,
+      "hintPenalty": 10,
+      "final": 95
+    },
+    "completedAt": "2026-11-01T08:18:52.570Z",
+    "createdAt": "2026-11-01T08:18:52.499Z",
+    "updatedAt": "2026-11-01T08:18:52.570Z"
+  },
+  {
+    "id": "ffc6c535882315322e54cfed",
+    "playerTokenHash": "dummy_hash_123",
+    "title": "The Case of the Missing Ruby",
+    "premise": "A priceless Burmese ruby vanishes from the estate library during midnight tea.",
+    "story": "On a stormy autumn evening at Ashcroft Manor, the private library safe was forced open while guests were gathered in the drawing room. The famed crimson ruby was stolen and replaced with a piece of worthless tinted red glass, sparking immediate suspicion among those present.",
+    "difficulty": "easy",
+    "suspects": [
+      {
+        "id": "suspect_1",
+        "name": "Arthur Pendelton",
+        "background": "The family butler with 30 years of loyal service.",
+        "motive": "Secret gambling debts to local bookmakers.",
+        "alibi": "Claims he was polishing silverware in the pantry."
+      },
+      {
+        "id": "suspect_2",
+        "name": "Lady Eleanor",
+        "background": "The estranged niece facing bankruptcy.",
+        "motive": "Disinherited from the estate will.",
+        "alibi": "Claims she was reading in the conservatory."
+      },
+      {
+        "id": "suspect_3",
+        "name": "Dr. Charles Vance",
+        "background": "The family physician who had late night access.",
+        "motive": "Funding an illicit medical research clinic.",
+        "alibi": "Administering nighttime sedatives to the host."
+      }
+    ],
+    "clues": [
+      {
+        "id": "clue_1",
+        "title": "Velvet Ribbon",
+        "description": "A frayed purple ribbon snagged on the safe hinge.",
+        "content": "Fibers matched the dress worn by Lady Eleanor earlier that night.",
+        "significance": "Proves Eleanor was at the safe during the storm.",
+        "relatedSuspectIds": [
+          "suspect_2"
+        ]
+      },
+      {
+        "id": "clue_2",
+        "title": "Silver Polish Cloth",
+        "description": "A damp cloth left on the pantry table.",
+        "content": "Shows traces of fresh silver cleaner, verifying Arthur was in the pantry.",
+        "significance": "Exonerates Arthur Pendelton from the time of theft.",
+        "relatedSuspectIds": [
+          "suspect_1"
+        ]
+      },
+      {
+        "id": "clue_3",
+        "title": "Glass Cutter Scratch",
+        "description": "A delicate circular scratch on the cabinet glass.",
+        "content": "Cut using a diamond-tipped scalpel from Dr. Vance's kit, stolen earlier by Eleanor.",
+        "significance": "Explains how the display case was compromised silently.",
+        "relatedSuspectIds": [
+          "suspect_2",
+          "suspect_3"
+        ]
+      },
+      {
+        "id": "clue_4",
+        "title": "Pawn Ticket",
+        "description": "A folded slip found in a coat pocket.",
+        "content": "Arthur's coat contained an unredeemed ticket for his watch, not a gem.",
+        "significance": "Confirms Arthur's financial distress but rules out ruby possession.",
+        "relatedSuspectIds": [
+          "suspect_1"
+        ]
+      },
+      {
+        "id": "clue_5",
+        "title": "Muddy Footprint",
+        "description": "A small feminine boot print near the terrace.",
+        "content": "Matches size 6 evening boots worn exclusively by Lady Eleanor.",
+        "significance": "Establishes the exit trajectory used by the thief.",
+        "relatedSuspectIds": [
+          "suspect_2"
+        ]
+      }
+    ],
+    "hints": [
+      {
+        "id": "hint_1",
+        "content": "Examine the alibi of the person seen near the conservatory terrace."
+      },
+      {
+        "id": "hint_2",
+        "content": "The physical dress fibers on the safe hinge eliminate the male suspects."
+      }
+    ],
+    "totalClues": 5,
+    "maxHints": 2,
+    "status": "completed",
+    "solution": {
+      "culpritId": "suspect_2",
+      "explanation": "Lady Eleanor slipped away from the conservatory, cut the safe pane, and took the ruby. Lady Eleanor left behind dress fibers.",
+      "evidenceIds": [
+        "clue_1",
+        "clue_3",
+        "clue_5"
+      ],
+      "reasoningSummary": "Fibers and footprints decisively identify Lady Eleanor while eliminating Arthur and Dr. Vance."
+    },
+    "discoveredClueIds": [
+      "clue_1"
+    ],
+    "hintsUsed": 2,
+    "accusedSuspectId": "suspect_2",
+    "verdict": "correct",
+    "score": {
+      "base": 100,
+      "cluePoints": 5,
+      "hintPenalty": 20,
+      "final": 85
+    },
+    "completedAt": "2026-11-01T08:18:58.537Z",
+    "createdAt": "2026-11-01T08:18:58.533Z",
+    "updatedAt": "2026-11-01T08:18:58.537Z"
+  },
+  {
+    "id": "51c29ee8bd2e51bfbf5f3ae9",
+    "playerTokenHash": "d7fc5d1082c2f3de73e6ab4def762cef521f3893b67d013245efc72edb0208ac",
+    "title": "The Mystery of A cursed amulet vanishes from a museum displa",
+    "premise": "A cursed amulet vanishes from a museum display case.",
+    "story": "The quiet of the evening was abruptly shattered when alarms sounded across the estate. Regarding the incident: \"A cursed amulet vanishes from a museum display case.\". Investigators arrived to discover key security checkpoints disabled and the crime completed with forensic precision. Initial interrogations have isolated a select circle of persons of interest, each with conflicting narratives, suspicious alibis, and hidden motives. It falls to you, Detective, to examine the physical clues, pierce through the falsehoods, and bring the true perpetrator to justice.",
+    "difficulty": "easy",
+    "suspects": [
+      {
+        "id": "suspect_1",
+        "name": "Julian Sterling",
+        "background": "Chief Security Officer with master keycard clearance. Longstanding associate connected to the location and principal parties.",
+        "motive": "Mounting secret debts and recent threats of termination.",
+        "alibi": "Claims to have been conducting physical perimeter rounds outside."
+      },
+      {
+        "id": "suspect_2",
+        "name": "Victoria Vance",
+        "background": "Senior Appraiser and lead forensic cataloger. Longstanding associate connected to the location and principal parties.",
+        "motive": "Furious over disputed provenance royalties and imminent audit.",
+        "alibi": "Claims to have been reviewing archival manifests in the basement."
+      },
+      {
+        "id": "suspect_3",
+        "name": "Marcus Holloway",
+        "background": "Visiting Patron and tech investor. Longstanding associate connected to the location and principal parties.",
+        "motive": "Seeking proprietary leverage to rescue his collapsing portfolio.",
+        "alibi": "Claims to have been on a private international conference call."
+      }
+    ],
+    "clues": [
+      {
+        "id": "clue_1",
+        "title": "Tampered Terminal Log",
+        "description": "A digital access record with timestamp discrepancies near the scene. Found during forensic sweeping of the crime scene.",
+        "content": "Security records show an override keycard was used precisely at 23:42, wiping local sensor feeds. Detailed analysis confirms clear links to the case timeline.",
+        "significance": "Directly proves access by someone possessing master clearance bypass codes. Links the physical timeline of the incident together.",
+        "relatedSuspectIds": [
+          "suspect_2",
+          "suspect_1"
+        ]
+      },
+      {
+        "id": "clue_2",
+        "title": "Smudged Silk Glove",
+        "description": "A discarded glove found tucked beneath an air intake vent. Found during forensic sweeping of the crime scene.",
+        "content": "Forensic inspection detects trace residues of the safe locking lubricant and micro-fibers. Detailed analysis confirms clear links to the case timeline.",
+        "significance": "Confirms the perpetrator used the duct corridor to circumvent hallway motion sensors. Links the physical timeline of the incident together.",
+        "relatedSuspectIds": [
+          "suspect_2"
+        ]
+      },
+      {
+        "id": "clue_3",
+        "title": "Encrypted Flash Drive",
+        "description": "A miniature drive dropped behind a velvet drapery. Found during forensic sweeping of the crime scene.",
+        "content": "Contains copied floor schematics and vault wiring diagrams downloaded forty-eight hours prior. Detailed analysis confirms clear links to the case timeline.",
+        "significance": "Indicates premeditated surveillance and technical knowledge of the venue layout. Links the physical timeline of the incident together.",
+        "relatedSuspectIds": [
+          "suspect_3",
+          "suspect_1"
+        ]
+      },
+      {
+        "id": "clue_4",
+        "title": "Fabric Thread Snag",
+        "description": "A singular colored thread snagged on the safe door latch. Found during forensic sweeping of the crime scene.",
+        "content": "Matches the exact tailored weave worn by the chief suspect during the evening. Detailed analysis confirms clear links to the case timeline.",
+        "significance": "Conclusive physical evidence placing the culprit in immediate contact with the vault latch. Links the physical timeline of the incident together.",
+        "relatedSuspectIds": [
+          "suspect_2"
+        ]
+      },
+      {
+        "id": "clue_5",
+        "title": "Alibi Phone Record",
+        "description": "Cellular network tower logs covering the critical window. Found during forensic sweeping of the crime scene.",
+        "content": "Tower triangulation confirms the alleged call was unanswered and lasted only four seconds. Detailed analysis confirms clear links to the case timeline.",
+        "significance": "Shatters the primary alibi timeline claimed during initial interrogation. Links the physical timeline of the incident together.",
+        "relatedSuspectIds": [
+          "suspect_2",
+          "suspect_3"
+        ]
+      }
+    ],
+    "hints": [
+      {
+        "id": "hint_1",
+        "content": "Focus your attention on the person whose alibi relies on unsupervised solo tasks in the basement or archives."
+      },
+      {
+        "id": "hint_2",
+        "content": "The fabric fibers and terminal override logs point away from exterior intruders toward a specialist with internal access."
+      }
+    ],
+    "totalClues": 5,
+    "maxHints": 2,
+    "status": "active",
+    "solution": {
+      "culpritId": "suspect_2",
+      "explanation": "Victoria Vance orchestrated the crime by taking advantage of specialized cataloging access and internal clearance. Victoria Vance prepared the bypass codes ahead of time, retrieved the target item, and planted misleading evidence. Physical thread fibers and access logs ultimately exposed Victoria Vance as the sole architect behind the operation.",
+      "evidenceIds": [
+        "clue_1",
+        "clue_2",
+        "clue_3"
+      ],
+      "reasoningSummary": "Forensic fiber matching and falsified phone timestamps eliminate other suspects and conclusively demonstrate that Victoria Vance executed the crime alone."
+    },
+    "discoveredClueIds": [],
+    "hintsUsed": 0,
+    "accusedSuspectId": null,
+    "verdict": null,
+    "score": null,
+    "completedAt": null,
+    "createdAt": "2026-11-01T08:28:15.533Z",
+    "updatedAt": "2026-11-01T08:28:15.533Z"
+  }
+]

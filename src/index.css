@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Cinzel', serif;
+    --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-narrative: 'Newsreader', Georgia, serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #0c0e14;
+    color: #e2e8f0;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Custom scrollbar for evidence logs and panels */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #11141d;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2a3142;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3f4961;
+  }
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-narrative {
+  font-family: var(--font-narrative);
+}
+
+.font-mono-code {
+  font-family: var(--font-mono);
+}
+
+/* Atmospheric subtle noir texture / vignette */
+.noir-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+}
+
+.stamp-effect {
+  position: relative;
+  border-width: 2px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
